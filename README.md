@@ -22,6 +22,7 @@ pnpm i -D globals @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-si
 
 ```js
 import nekoConfig from '@nekochan0122/config/eslint'
+import globals from 'globals'
 import tseslint from 'typescript-eslint'
 
 const baseConfig = tseslint.config(
