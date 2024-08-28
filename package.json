@@ -18,6 +18,7 @@
   "exports": {
     "./eslint": {
       "import": "./dist/eslint/index.js",
+      "require": "./dist/eslint/index.cjs",
       "types": "./dist/eslint/index.d.ts"
     }
   },

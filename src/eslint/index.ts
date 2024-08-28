@@ -39,4 +39,4 @@ const eslintConfig: ESlintConfig = {
   },
 }
 
-export { eslintConfig as default, eslintConfig as nekoConfig }
+export { eslintConfig as default }
