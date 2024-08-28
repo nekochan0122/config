@@ -32,6 +32,7 @@
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
     "@eslint/js": "^9.9.1",
+    "@semantic-release/changelog": "^6.0.3",
     "@stylistic/eslint-plugin": "^2.6.4",
     "@types/eslint__js": "^8.42.3",
     "eslint": "^9.9.1",
@@ -44,6 +45,8 @@
     "eslint-plugin-unicorn": "^55.0.0",
     "globals": "^15.9.0",
     "pkgroll": "^2.4.2",
+    "semantic-release": "^24.1.0",
+    "semantic-release-pnpm": "^1.0.2",
     "typescript-eslint": "^8.3.0"
   },
   "peerDependencies": {
