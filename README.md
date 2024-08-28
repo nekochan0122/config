@@ -15,7 +15,7 @@ pnpm i -D eslint typescript-eslint @eslint/js @eslint/compat @types/eslint__js
 2. Install Base Plugins
 
 ```bash
-pnpm i -D @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-simple-import-sort eslint-plugin-unicorn
+pnpm i -D globals @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-simple-import-sort eslint-plugin-unicorn
 ```
 
 3. Use it
@@ -26,6 +26,14 @@ import tseslint from 'typescript-eslint'
 
 const baseConfig = tseslint.config(
   ...nekoConfig.presets.base,
+  {
+    languageOptions: {
+      globals: globals.browser, // choose the correct globals for ur project
+    },
+    rules: {
+      '@stylistic/indent': ['error', 4], // you can override rules in here
+    },
+  }
 )
 ```
 
