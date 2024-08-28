@@ -3,11 +3,11 @@ import tseslint from 'typescript-eslint'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-import importConfig from '../plugins/import'
-import importSortConfig from '../plugins/import-sort'
-import stylisticBaseConfig from '../plugins/stylistic-base'
-import typescriptStyleConfig from '../plugins/typescript-style'
-import unicornConfig from '../plugins/unicorn'
+import importConfig from '~/eslint/plugins/import'
+import importSortConfig from '~/eslint/plugins/import-sort'
+import stylisticBaseConfig from '~/eslint/plugins/stylistic-base'
+import typescriptStyleConfig from '~/eslint/plugins/typescript-style'
+import unicornConfig from '~/eslint/plugins/unicorn'
 
 const baseConfig: FlatConfigArray = [
   eslint.configs.recommended,
