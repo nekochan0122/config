@@ -23,7 +23,8 @@
   },
   "type": "module",
   "scripts": {
-    "build": "pkgroll --clean-dist"
+    "build": "pkgroll --clean-dist",
+    "lint": "eslint --fix"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
