@@ -12,7 +12,9 @@ import { basePresetConfig } from '~/eslint/presets/base'
 import { reactPresetConfig } from '~/eslint/presets/react'
 import type { FlatConfigArray } from '~/eslint/types'
 
-// use this type to fix error TS2742: The inferred type of 'eslintConfig' cannot be named without a reference to 'ts-eslint'. This is likely not portable. A type annotation is necessary.
+// use this type to fix error TS2742:
+// The inferred type of 'eslintConfig' cannot be named without a reference to 'ts-eslint'.
+// This is likely not portable. A type annotation is necessary.
 type ESlintConfig = {
   plugin: {
     'import': FlatConfigArray
