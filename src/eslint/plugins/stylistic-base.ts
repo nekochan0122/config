@@ -1,7 +1,8 @@
 import stylistic from '@stylistic/eslint-plugin'
-import tseslint from 'typescript-eslint'
 
-export default tseslint.config({
+import type { FlatConfigArray } from '~/eslint/types'
+
+const stylisticBaseConfig: FlatConfigArray = [{
   plugins: {
     '@stylistic': stylistic,
   },
@@ -32,4 +33,6 @@ export default tseslint.config({
     '@stylistic/spaced-comment': 'error',
     '@stylistic/switch-colon-spacing': 'error',
   },
-})
+}]
+
+export { stylisticBaseConfig as default }

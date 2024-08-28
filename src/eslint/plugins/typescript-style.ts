@@ -1,6 +1,6 @@
-import tseslint from 'typescript-eslint'
+import type { FlatConfigArray } from '~/eslint/types'
 
-export default tseslint.config({
+const typescriptStyle: FlatConfigArray = [{
   rules: {
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
     '@typescript-eslint/no-explicit-any': 'error',
@@ -24,4 +24,6 @@ export default tseslint.config({
       },
     ],
   },
-})
+}]
+
+export { typescriptStyle as default }

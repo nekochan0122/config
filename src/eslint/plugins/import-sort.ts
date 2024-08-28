@@ -1,7 +1,8 @@
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
-import tseslint from 'typescript-eslint'
 
-export default tseslint.config({
+import type { FlatConfigArray } from '~/eslint/types'
+
+const importSortConfig: FlatConfigArray = [{
   plugins: {
     'simple-import-sort': simpleImportSort,
   },
@@ -20,4 +21,6 @@ export default tseslint.config({
       },
     ],
   },
-})
+}]
+
+export { importSortConfig as default }

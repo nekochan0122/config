@@ -24,7 +24,7 @@ pnpm i -D @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-simple-imp
 import baseConfig from '@nekochan0122/config/eslint/presets/base'
 import tseslint from 'typescript-eslint'
 
-export default tseslint.config(
+const baseConfig = tseslint.config(
   ...baseConfig,
 )
 ```

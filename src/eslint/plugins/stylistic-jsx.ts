@@ -1,7 +1,8 @@
 import stylistic from '@stylistic/eslint-plugin'
-import tseslint from 'typescript-eslint'
 
-export default tseslint.config({
+import type { FlatConfigArray } from '~/eslint/types'
+
+const stylisticJsxConfig: FlatConfigArray = [{
   plugins: {
     '@stylistic': stylistic,
   },
@@ -13,4 +14,6 @@ export default tseslint.config({
     '@stylistic/jsx-one-expression-per-line': 'off',
     '@stylistic/jsx-tag-spacing': 'error',
   },
-})
+}]
+
+export { stylisticJsxConfig as default }
