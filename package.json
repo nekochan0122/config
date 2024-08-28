@@ -30,7 +30,8 @@
     "build": "pkgroll --clean-dist",
     "build:watch": "pkgroll --clean-dist --watch",
     "lint": "eslint --fix",
-    "prepublish": "pnpm build && pnpm lint"
+    "prepublish": "pnpm build && pnpm lint",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
@@ -48,6 +49,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^55.0.0",
     "globals": "^15.9.0",
+    "husky": "^9.1.5",
     "pkgroll": "^2.4.2",
     "semantic-release": "^24.1.0",
     "typescript-eslint": "^8.3.0"
