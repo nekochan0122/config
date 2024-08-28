@@ -6,7 +6,8 @@ import type { FlatConfigArray } from '~/eslint/types'
 export const typescriptStylePluginConfig: FlatConfigArray = [
   eslint.configs.recommended,
   ...tseslint.configs.strict,
-  ...tseslint.configs.stylistic, {
+  ...tseslint.configs.stylistic,
+  {
     rules: {
       '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
       '@typescript-eslint/array-type': ['error', { default: 'generic' }],
@@ -31,4 +32,5 @@ export const typescriptStylePluginConfig: FlatConfigArray = [
         },
       ],
     },
-  }]
+  },
+]
