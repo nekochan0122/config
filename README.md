@@ -1,5 +1,9 @@
 # @nekochan/config
 
+```bash
+pnpm i -D @nekochan0122/config
+```
+
 ## ESlint (Flat Config + TypeScript)
 
 1. Install ESlint
@@ -14,11 +18,7 @@ pnpm i -D eslint typescript-eslint @eslint/js @eslint/compat @types/eslint__js
 pnpm i -D @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-simple-import-sort eslint-plugin-unicorn
 ```
 
-3. Install Config and Use it
-
-```bash
-pnpm i -D @nekochan0122/config
-```
+3. Use it
 
 ```js
 import baseConfig from '@nekochan0122/config/eslint/presets/base'
