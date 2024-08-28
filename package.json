@@ -26,7 +26,7 @@
     "build": "pkgroll --clean-dist",
     "build:watch": "pkgroll --clean-dist --watch",
     "lint": "eslint --fix",
-    "prepublish": "pnpm lint && pnpm build"
+    "prepublish": "pnpm build && pnpm lint"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
