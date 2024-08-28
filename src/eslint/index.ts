@@ -15,7 +15,7 @@ import type { FlatConfigArray } from '~/eslint/types'
 // use this type to fix error TS2742:
 // The inferred type of 'eslintConfig' cannot be named without a reference to 'ts-eslint'.
 // This is likely not portable. A type annotation is necessary.
-type ESlintConfig = {
+type ESLintConfig = {
   plugin: {
     'import': FlatConfigArray
     'import-sort': FlatConfigArray
@@ -34,7 +34,7 @@ type ESlintConfig = {
   }
 }
 
-const eslintConfig: ESlintConfig = {
+const eslintConfig: ESLintConfig = {
   plugin: {
     'import': importPluginConfig,
     'import-sort': importSortPluignConfig,

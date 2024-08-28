@@ -4,9 +4,9 @@
 pnpm i -D @nekochan0122/config
 ```
 
-## ESlint (Flat Config + TypeScript)
+## ESLint (Flat Config + TypeScript)
 
-1. Install ESlint
+1. Install ESLint
 
 ```bash
 pnpm i -D eslint typescript-eslint @eslint/js @eslint/compat @types/eslint__js
