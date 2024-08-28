@@ -6,12 +6,7 @@ import typescriptStyleConfig from '~/eslint/plugins/typescript-style'
 import unicornConfig from '~/eslint/plugins/unicorn'
 import baseConfig from '~/eslint/presets/base'
 import reactConfig from '~/eslint/presets/react'
-import type { FlatConfigArray } from '~/eslint/types'
-
-interface ESlintConfig {
-  plugin: Record<string, FlatConfigArray>
-  presets: Record<string, FlatConfigArray>
-}
+import type { ESlintConfig } from '~/eslint/types'
 
 const eslintConfig: ESlintConfig = {
   plugin: {

@@ -1,9 +1,9 @@
 import tseslint from 'typescript-eslint'
 
-import baseConfig from './dist/eslint/presets/base.js'
+import nekoConfig from './dist/eslint'
 
 export default tseslint.config(
-  ...baseConfig,
+  ...nekoConfig.presets.base,
   {
     ignores: ['dist'],
   },
