@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/nekochan0122/config/compare/v1.2.1...v1.3.0) (2024-08-28)
+
+
+### Features
+
+* auto detect react version ([afb6dc4](https://github.com/nekochan0122/config/commit/afb6dc4177b9bde32d2bd8b42eae17c34b3934a6))
+
 ## [1.2.1](https://github.com/nekochan0122/config/compare/v1.2.0...v1.2.1) (2024-08-28)
 
 
