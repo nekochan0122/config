@@ -21,11 +21,11 @@ pnpm i -D @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-simple-imp
 3. Use it
 
 ```js
-import baseConfig from '@nekochan0122/config/eslint/presets/base'
+import nekoConfig from '@nekochan0122/config/eslint'
 import tseslint from 'typescript-eslint'
 
 const baseConfig = tseslint.config(
-  ...baseConfig,
+  ...nekoConfig.presets.base,
 )
 ```
 

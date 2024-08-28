@@ -16,37 +16,9 @@
     "dist"
   ],
   "exports": {
-    "./eslint/presets/base": {
-      "import": "./dist/eslint/presets/base.js",
-      "types": "./dist/eslint/presets/base.d.ts"
-    },
-    "./eslint/presets/react": {
-      "import": "./dist/eslint/presets/react.js",
-      "types": "./dist/eslint/presets/react.d.ts"
-    },
-    "./eslint/plugins/import-sort": {
-      "import": "./dist/eslint/plugins/import-sort.js",
-      "types": "./dist/eslint/plugins/import-sort.d.ts"
-    },
-    "./eslint/plugins/import": {
-      "import": "./dist/eslint/plugins/import.js",
-      "types": "./dist/eslint/plugins/import.d.ts"
-    },
-    "./eslint/plugins/stylistic-base": {
-      "import": "./dist/eslint/plugins/stylistic-base.js",
-      "types": "./dist/eslint/plugins/stylistic-base.d.ts"
-    },
-    "./eslint/plugins/stylistic-jsx": {
-      "import": "./dist/eslint/plugins/stylistic-jsx.js",
-      "types": "./dist/eslint/plugins/stylistic-jsx.d.ts"
-    },
-    "./eslint/plugins/typescript-style": {
-      "import": "./dist/eslint/plugins/typescript-style.js",
-      "types": "./dist/eslint/plugins/typescript-style.d.ts"
-    },
-    "./eslint/plugins/unicorn": {
-      "import": "./dist/eslint/plugins/unicorn.js",
-      "types": "./dist/eslint/plugins/unicorn.d.ts"
+    "./eslint": {
+      "import": "./dist/eslint/index.js",
+      "types": "./dist/eslint/index.d.ts"
     }
   },
   "type": "module",
