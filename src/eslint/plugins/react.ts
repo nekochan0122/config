@@ -7,6 +7,11 @@ export const reactPluginConfig: FlatConfigArray = [
   eslintPluginReact.configs.flat.recommended,
   eslintPluginReact.configs.flat['jsx-runtime'],
   {
+    settings: {
+      react: {
+        version: 'detect',
+      },
+    },
     rules: {
       'react/prop-types': 'off',
     },
