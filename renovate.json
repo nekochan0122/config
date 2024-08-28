@@ -1,0 +1,22 @@
+{
+  "extends": ["config:base"],
+  "commitMessagePrefix": "chore(deps):",
+  "commitMessageAction": "update",
+  "labels": ["dependencies"],
+  "packageRules": [
+    {
+      "updateTypes": ["patch", "minor"],
+      "automerge": true,
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    },
+    {
+      "updateTypes": ["major"],
+      "automerge": false,
+      "semanticCommitType": "chore",
+      "semanticCommitScope": "deps"
+    }
+  ],
+  "prHourlyLimit": 2,
+  "prConcurrentLimit": 10
+}

@@ -7,5 +7,8 @@
     "@semantic-release/npm",
     "@semantic-release/git",
     "@semantic-release/github"
+  ],
+  "releaseRules": [
+    {"type": "chore", "scope": "deps", "release": false}
   ]
 }
