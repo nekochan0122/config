@@ -9,6 +9,6 @@ export const reactHooksPluginConfig: FlatConfigArray = [
       // https://github.com/facebook/react/issues/28313
       'react-hooks': eslintPluginReactHooks,
     },
-    rules: eslintPluginReactHooks.configs.rules,
+    rules: eslintPluginReactHooks.configs.recommended.rules,
   },
 ]
