@@ -10,7 +10,10 @@
   },
   "keywords": [
     "config",
-    "eslint"
+    "eslint",
+    "stylistic",
+    "react",
+    "typescript"
   ],
   "files": [
     "dist"
