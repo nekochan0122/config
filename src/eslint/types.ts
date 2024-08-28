@@ -1,6 +1,6 @@
 import type tseslint from 'typescript-eslint'
 
-export interface ESlintConfig {
+export type ESlintConfig = {
   plugin: {
     'import': FlatConfigArray
     'import-sort': FlatConfigArray

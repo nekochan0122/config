@@ -2,6 +2,7 @@ import type { FlatConfigArray } from '~/eslint/types'
 
 const typescriptStyle: FlatConfigArray = [{
   rules: {
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
     '@typescript-eslint/no-explicit-any': 'error',
     '@typescript-eslint/consistent-type-imports': [
