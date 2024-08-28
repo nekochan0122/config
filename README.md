@@ -28,3 +28,17 @@ export default tseslint.config(
   ...baseConfig,
 )
 ```
+
+4. Update VSCode Settings (Optional)
+
+```json
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+}
+```
+
+> [!CAUTION]
+> Do not use this config with Prettier or other formatter.
