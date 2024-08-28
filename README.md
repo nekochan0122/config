@@ -17,11 +17,11 @@ pnpm i -D @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-simple-imp
 3. Install Config and Use it
 
 ```bash
-pnpm i -D @nekochan/config
+pnpm i -D @nekochan0122/config
 ```
 
 ```js
-import baseConfig from '@nekochan/config/eslint/base'
+import baseConfig from '@nekochan0122/config/eslint/base'
 
 export default baseConfig
 ```
