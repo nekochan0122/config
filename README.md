@@ -20,6 +20,8 @@ pnpm i -D globals @stylistic/eslint-plugin eslint-plugin-import eslint-plugin-si
 
 3. Use it
 
+Base:
+
 ```js
 import nekoConfig from '@nekochan0122/config/eslint'
 import globals from 'globals'
@@ -33,6 +35,27 @@ export default tseslint.config(
     },
     rules: {
       '@stylistic/indent': ['error', 4], // you can override rules in here
+    },
+  }
+)
+```
+
+React:
+
+```bash
+pnpm i -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh eslint-plugin-jsx-a11y
+```
+
+```js
+import nekoConfig from '@nekochan0122/config/eslint'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
+
+export default tseslint.config(
+  ...nekoConfig.presets.react,
+  {
+    languageOptions: {
+      globals: globals.browser,
     },
   }
 )
