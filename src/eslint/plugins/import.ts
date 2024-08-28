@@ -4,7 +4,7 @@ import eslintImport from 'eslint-plugin-import'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-export const importConfig: FlatConfigArray = [{
+export const importPluginConfig: FlatConfigArray = [{
   plugins: {
     // https://github.com/import-js/eslint-plugin-import/issues/2556#issuecomment-2267581659
     import: fixupPluginRules(eslintImport),

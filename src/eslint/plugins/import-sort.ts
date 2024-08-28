@@ -1,10 +1,10 @@
-import simpleImportSort from 'eslint-plugin-simple-import-sort'
+import eslintPluginSimpleImportSort from 'eslint-plugin-simple-import-sort'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-export const importSortConfig: FlatConfigArray = [{
+export const importSortPluignConfig: FlatConfigArray = [{
   plugins: {
-    'simple-import-sort': simpleImportSort,
+    'simple-import-sort': eslintPluginSimpleImportSort,
   },
   rules: {
     'simple-import-sort/exports': 'error',

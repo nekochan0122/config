@@ -1,11 +1,9 @@
-import stylistic from '@stylistic/eslint-plugin'
-
 import type { FlatConfigArray } from '~/eslint/types'
 
-export const stylisticJsxConfig: FlatConfigArray = [{
-  plugins: {
-    '@stylistic': stylistic,
-  },
+import { stylisticBasePluginConfig } from './stylistic-base'
+
+export const stylisticReactPluginConfig: FlatConfigArray = [{
+  ...stylisticBasePluginConfig,
   rules: {
     '@stylistic/jsx-closing-bracket-location': [1, 'tag-aligned'],
     '@stylistic/jsx-equals-spacing': [2, 'never'],

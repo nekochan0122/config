@@ -1,25 +1,41 @@
-import { importConfig } from '~/eslint/plugins/import'
-import { importSortConfig } from '~/eslint/plugins/import-sort'
-import { stylisticBaseConfig } from '~/eslint/plugins/stylistic-base'
-import { stylisticJsxConfig } from '~/eslint/plugins/stylistic-jsx'
-import { typescriptStyleConfig } from '~/eslint/plugins/typescript-style'
-import { unicornConfig } from '~/eslint/plugins/unicorn'
-import { baseConfig } from '~/eslint/presets/base'
-import { reactConfig } from '~/eslint/presets/react'
-import type { ESlintConfig } from '~/eslint/types'
+import { importPluginConfig } from '~/eslint/plugins/import'
+import { importSortPluignConfig } from '~/eslint/plugins/import-sort'
+import { stylisticBasePluginConfig } from '~/eslint/plugins/stylistic-base'
+import { stylisticReactPluginConfig } from '~/eslint/plugins/stylistic-react'
+import { typescriptStylePluginConfig } from '~/eslint/plugins/typescript-style'
+import { unicornPluginConfig } from '~/eslint/plugins/unicorn'
+import { basePresetConfig } from '~/eslint/presets/base'
+import { reactPresetConfig } from '~/eslint/presets/react'
+import type { FlatConfigArray } from '~/eslint/types'
+
+// use this type to fix error TS2742: The inferred type of 'eslintConfig' cannot be named without a reference to 'ts-eslint'. This is likely not portable. A type annotation is necessary.
+type ESlintConfig = {
+  plugin: {
+    'import': FlatConfigArray
+    'import-sort': FlatConfigArray
+    'stylistic-base': FlatConfigArray
+    'stylistic-react': FlatConfigArray
+    'typescript-style': FlatConfigArray
+    'unicorn': FlatConfigArray
+  }
+  presets: {
+    base: FlatConfigArray
+    react: FlatConfigArray
+  }
+}
 
 const eslintConfig: ESlintConfig = {
   plugin: {
-    'import': importConfig,
-    'import-sort': importSortConfig,
-    'stylistic-base': stylisticBaseConfig,
-    'stylistic-jsx': stylisticJsxConfig,
-    'typescript-style': typescriptStyleConfig,
-    'unicorn': unicornConfig,
+    'import': importPluginConfig,
+    'import-sort': importSortPluignConfig,
+    'stylistic-base': stylisticBasePluginConfig,
+    'stylistic-react': stylisticReactPluginConfig,
+    'typescript-style': typescriptStylePluginConfig,
+    'unicorn': unicornPluginConfig,
   },
   presets: {
-    base: baseConfig,
-    react: reactConfig,
+    base: basePresetConfig,
+    react: reactPresetConfig,
   },
 }
 

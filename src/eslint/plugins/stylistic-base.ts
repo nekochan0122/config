@@ -2,7 +2,7 @@ import stylistic from '@stylistic/eslint-plugin'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-export const stylisticBaseConfig: FlatConfigArray = [{
+export const stylisticBasePluginConfig: FlatConfigArray = [{
   plugins: {
     '@stylistic': stylistic,
   },
@@ -35,4 +35,4 @@ export const stylisticBaseConfig: FlatConfigArray = [{
   },
 }]
 
-export { stylisticBaseConfig as default }
+export { stylisticBasePluginConfig as default }
