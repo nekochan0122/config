@@ -21,7 +21,7 @@ pnpm i -D @nekochan0122/config
 ```
 
 ```js
-import baseConfig from '@nekochan0122/config/eslint/base'
+import baseConfig from '@nekochan0122/config/eslint/presets/base'
 
 export default baseConfig
 ```
