@@ -13,14 +13,14 @@
     "eslint"
   ],
   "exports": {
-    "./presets/base": "./src/presets/base.js",
-    "./presets/react": "./src/presets/react.js",
-    "./plugins/import-sort": "./src/plugins/import-sort.js",
-    "./plugins/import": "./src/plugins/import.js",
-    "./plugins/stylistic-base": "./src/plugins/stylistic-base.js",
-    "./plugins/stylistic-jsx": "./src/plugins/stylistic-jsx.js",
-    "./plugins/typescript-style": "./src/plugins/typescript-style.js",
-    "./plugins/unicorn": "./src/plugins/unicorn.js"
+    "./eslint/presets/base": "./src/eslint/presets/base.js",
+    "./eslint/presets/react": "./src/eslint/presets/react.js",
+    "./eslint/plugins/import-sort": "./src/eslint/plugins/import-sort.js",
+    "./eslint/plugins/import": "./src/eslint/plugins/import.js",
+    "./eslint/plugins/stylistic-base": "./src/eslint/plugins/stylistic-base.js",
+    "./eslint/plugins/stylistic-jsx": "./src/eslint/plugins/stylistic-jsx.js",
+    "./eslint/plugins/typescript-style": "./src/eslint/plugins/typescript-style.js",
+    "./eslint/plugins/unicorn": "./src/eslint/plugins/unicorn.js"
   },
   "type": "module",
   "devDependencies": {
