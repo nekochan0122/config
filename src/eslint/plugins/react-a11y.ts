@@ -5,7 +5,7 @@ import type { FlatConfigArray } from '~/eslint/types'
 
 export const reactA11yPluginConfig: FlatConfigArray = [
   {
-    plugins: eslintPluginReactA11y.flatConfigs.plugins,
-    rules: eslintPluginReactA11y.flatConfigs.rules,
+    plugins: eslintPluginReactA11y.flatConfigs.recommended.plugins,
+    rules: eslintPluginReactA11y.flatConfigs.recommended.rules,
   },
 ]
