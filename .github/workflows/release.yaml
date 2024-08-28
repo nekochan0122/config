@@ -40,7 +40,7 @@ jobs:
         run: pnpm install
 
       - name: Build
-        run: prepublish
+        run: pnpm prepublish
 
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: pnpm audit signatures
