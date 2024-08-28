@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "moduleDetection": "force",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+
+    /* Strictness */
+    "strict": true,
+    "checkJs": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Bundled projects */
+    "moduleResolution": "Bundler",
+    "module": "ESNext",
+    "target": "ESNext",
+    "noEmit": true,
+
+    /* Path Aliases */
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*", "eslint.config.js"],
+  "exclude": ["node_modules"]
+}

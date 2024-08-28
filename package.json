@@ -1,0 +1,40 @@
+{
+  "name": "@nekochan0122/config",
+  "description": "NekoChan's config",
+  "version": "0.0.1-alpha.1",
+  "license": "MIT",
+  "repository": "https://github.com/nekochan0122/config",
+  "author": {
+    "name": "NekoChan",
+    "url": "https://github.com/NekoChan0122"
+  },
+  "keywords": [
+    "config",
+    "eslint"
+  ],
+  "exports": {
+    ".": "./src/"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@eslint/compat": "^1.1.1",
+    "@eslint/js": "^9.9.1",
+    "@stylistic/eslint-plugin": "^2.6.4",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.9.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "typescript-eslint": "^8.3.0"
+  },
+  "peerDependencies": {
+    "@eslint/compat": ">=1.1.0",
+    "@eslint/js": ">=9.9.0",
+    "@stylistic/eslint-plugin": ">=2.6.0",
+    "eslint": ">=9.9.0",
+    "eslint-plugin-import": ">=2.29.0",
+    "eslint-plugin-simple-import-sort": ">=12.1.0",
+    "eslint-plugin-unicorn": ">=55.0.0",
+    "typescript-eslint": ">=8.3.0"
+  }
+}
