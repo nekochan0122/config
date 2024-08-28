@@ -22,6 +22,9 @@ pnpm i -D @nekochan0122/config
 
 ```js
 import baseConfig from '@nekochan0122/config/eslint/presets/base'
+import tseslint from 'typescript-eslint'
 
-export default baseConfig
+export default tseslint.config(
+  ...baseConfig,
+)
 ```
