@@ -10,7 +10,7 @@ export const typescriptStylePluginConfig: FlatConfigArray = [
   {
     rules: {
       '@typescript-eslint/consistent-type-definitions': 'off',
-      '@typescript-eslint/array-type': ['error', { default: 'generic' }],
+      '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/consistent-type-imports': [
         'warn',
