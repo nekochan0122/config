@@ -1,11 +1,11 @@
-import importConfig from '~/eslint/plugins/import'
-import importSortConfig from '~/eslint/plugins/import-sort'
-import stylisticBaseConfig from '~/eslint/plugins/stylistic-base'
-import stylisticJsxConfig from '~/eslint/plugins/stylistic-jsx'
-import typescriptStyleConfig from '~/eslint/plugins/typescript-style'
-import unicornConfig from '~/eslint/plugins/unicorn'
-import baseConfig from '~/eslint/presets/base'
-import reactConfig from '~/eslint/presets/react'
+import { importConfig } from '~/eslint/plugins/import'
+import { importSortConfig } from '~/eslint/plugins/import-sort'
+import { stylisticBaseConfig } from '~/eslint/plugins/stylistic-base'
+import { stylisticJsxConfig } from '~/eslint/plugins/stylistic-jsx'
+import { typescriptStyleConfig } from '~/eslint/plugins/typescript-style'
+import { unicornConfig } from '~/eslint/plugins/unicorn'
+import { baseConfig } from '~/eslint/presets/base'
+import { reactConfig } from '~/eslint/presets/react'
 import type { ESlintConfig } from '~/eslint/types'
 
 const eslintConfig: ESlintConfig = {
@@ -23,4 +23,4 @@ const eslintConfig: ESlintConfig = {
   },
 }
 
-export { eslintConfig as default }
+export { eslintConfig as default, eslintConfig as nekoConfig }

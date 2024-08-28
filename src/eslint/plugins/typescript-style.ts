@@ -1,6 +1,6 @@
 import type { FlatConfigArray } from '~/eslint/types'
 
-const typescriptStyle: FlatConfigArray = [{
+export const typescriptStyleConfig: FlatConfigArray = [{
   rules: {
     '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
     '@typescript-eslint/array-type': ['error', { default: 'generic' }],
@@ -26,5 +26,3 @@ const typescriptStyle: FlatConfigArray = [{
     ],
   },
 }]
-
-export { typescriptStyle as default }

@@ -2,7 +2,7 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-const importSortConfig: FlatConfigArray = [{
+export const importSortConfig: FlatConfigArray = [{
   plugins: {
     'simple-import-sort': simpleImportSort,
   },
@@ -22,5 +22,3 @@ const importSortConfig: FlatConfigArray = [{
     ],
   },
 }]
-
-export { importSortConfig as default }

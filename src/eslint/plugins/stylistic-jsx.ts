@@ -2,7 +2,7 @@ import stylistic from '@stylistic/eslint-plugin'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-const stylisticJsxConfig: FlatConfigArray = [{
+export const stylisticJsxConfig: FlatConfigArray = [{
   plugins: {
     '@stylistic': stylistic,
   },
@@ -15,5 +15,3 @@ const stylisticJsxConfig: FlatConfigArray = [{
     '@stylistic/jsx-tag-spacing': 'error',
   },
 }]
-
-export { stylisticJsxConfig as default }

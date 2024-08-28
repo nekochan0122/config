@@ -4,7 +4,7 @@ import eslintImport from 'eslint-plugin-import'
 
 import type { FlatConfigArray } from '~/eslint/types'
 
-const importConfig: FlatConfigArray = [{
+export const importConfig: FlatConfigArray = [{
   plugins: {
     // https://github.com/import-js/eslint-plugin-import/issues/2556#issuecomment-2267581659
     import: fixupPluginRules(eslintImport),
@@ -15,5 +15,3 @@ const importConfig: FlatConfigArray = [{
     'import/newline-after-import': ['error', { count: 1 }],
   },
 }]
-
-export { importConfig as default }

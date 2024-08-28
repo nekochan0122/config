@@ -1,11 +1,9 @@
-import stylisticJsxConfig from '~/eslint/plugins/stylistic-jsx'
+import { stylisticJsxConfig } from '~/eslint/plugins/stylistic-jsx'
 import type { FlatConfigArray } from '~/eslint/types'
 
-import baseConfig from './base'
+import { baseConfig } from './base'
 
-const reactConfig: FlatConfigArray = [
+export const reactConfig: FlatConfigArray = [
   ...baseConfig,
   ...stylisticJsxConfig,
 ]
-
-export { reactConfig as default }
