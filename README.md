@@ -1,4 +1,4 @@
-# @nekochan/config
+# @nekochan0122/config
 
 ```bash
 pnpm i -D @nekochan0122/config
