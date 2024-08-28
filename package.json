@@ -24,7 +24,8 @@
   "type": "module",
   "scripts": {
     "build": "pkgroll --clean-dist",
-    "lint": "eslint --fix"
+    "lint": "eslint --fix",
+    "prepublish": "pnpm lint && pnpm build"
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
@@ -35,6 +36,7 @@
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-unicorn": "^55.0.0",
+    "globals": "^15.9.0",
     "pkgroll": "^2.4.2",
     "typescript-eslint": "^8.3.0"
   },

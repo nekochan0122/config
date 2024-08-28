@@ -32,6 +32,9 @@ importers:
       eslint-plugin-unicorn:
         specifier: ^55.0.0
         version: 55.0.0(eslint@9.9.1)
+      globals:
+        specifier: ^15.9.0
+        version: 15.9.0
       pkgroll:
         specifier: ^2.4.2
         version: 2.4.2(typescript@5.5.4)
