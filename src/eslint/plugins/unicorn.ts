@@ -8,6 +8,7 @@ export const unicornPluginConfig: FlatConfigArray = [
     rules: {
       'unicorn/no-null': 'off',
       'unicorn/prefer-export-from': 'off',
+      'unicorn/prefer-top-level-await': 'off',
       'unicorn/prefer-module': 'off',
       'unicorn/prevent-abbreviations': 'off',
     },
