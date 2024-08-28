@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/nekochan0122/config/compare/v1.3.0...v1.3.1) (2024-08-28)
+
+
+### Bug Fixes
+
+* typo ([eb64817](https://github.com/nekochan0122/config/commit/eb64817c87aba0c243503b7b356b2d7706714693))
+
 # [1.3.0](https://github.com/nekochan0122/config/compare/v1.2.1...v1.3.0) (2024-08-28)
 
 
