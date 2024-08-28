@@ -6,4 +6,9 @@ import type { FlatConfigArray } from '~/eslint/types'
 export const reactPluginConfig: FlatConfigArray = [
   eslintPluginReact.configs.flat.recommended,
   eslintPluginReact.configs.flat['jsx-runtime'],
+  {
+    rules: {
+      'react/prop-types': 'off',
+    },
+  },
 ]
