@@ -13,7 +13,14 @@
     "eslint"
   ],
   "exports": {
-    ".": "./src/"
+    "./presets/base": "./src/presets/base.js",
+    "./presets/react": "./src/presets/react.js",
+    "./plugins/import-sort": "./src/plugins/import-sort.js",
+    "./plugins/import": "./src/plugins/import.js",
+    "./plugins/stylistic-base": "./src/plugins/stylistic-base.js",
+    "./plugins/stylistic-jsx": "./src/plugins/stylistic-jsx.js",
+    "./plugins/typescript-style": "./src/plugins/typescript-style.js",
+    "./plugins/unicorn": "./src/plugins/unicorn.js"
   },
   "type": "module",
   "devDependencies": {
