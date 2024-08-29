@@ -74,3 +74,22 @@ export default tseslint.config(
 
 > [!CAUTION]
 > Do not use this config with Prettier or other formatter.
+
+## VSCode
+
+1. Install Fonts
+
+Editor
+  - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+  - [Source Han Sans HW TC VF](https://github.com/adobe-fonts/source-han-sans/releases/tag/2.004R)
+
+Terminal
+  - [JetBrainsMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+
+2. Download Profile
+
+https://github.com/nekochan0122/config/blob/main/src/vscode
+
+3. Import Profile
+
+File -> Preferences -> Profile -> Import
