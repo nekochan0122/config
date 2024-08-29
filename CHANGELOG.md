@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/nekochan0122/config/compare/v1.4.0...v1.4.1) (2024-08-29)
+
+
+### Bug Fixes
+
+* keybinds & remove global state ([1aac252](https://github.com/nekochan0122/config/commit/1aac252a436c4f6b3639d8664782d743f9ba803c))
+
 # [1.4.0](https://github.com/nekochan0122/config/compare/v1.3.1...v1.4.0) (2024-08-29)
 
 
