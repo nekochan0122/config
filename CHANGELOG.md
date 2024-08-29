@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/nekochan0122/config/compare/v1.3.1...v1.4.0) (2024-08-29)
+
+
+### Features
+
+* VSCode profile ([5e3fd2f](https://github.com/nekochan0122/config/commit/5e3fd2fecf64d28f0cdaa1676d0648154aa458b7))
+
 ## [1.3.1](https://github.com/nekochan0122/config/compare/v1.3.0...v1.3.1) (2024-08-28)
 
 
