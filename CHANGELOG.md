@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/nekochan0122/config/compare/v1.5.1...v1.5.2) (2024-08-30)
+
+
+### Bug Fixes
+
+* remove object-curly-newline ([9849459](https://github.com/nekochan0122/config/commit/9849459c18eff3e90885c4a8097e9a58030c4053))
+
 ## [1.5.1](https://github.com/nekochan0122/config/compare/v1.5.0...v1.5.1) (2024-08-30)
 
 
