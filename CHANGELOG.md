@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/nekochan0122/config/compare/v1.5.0...v1.5.1) (2024-08-30)
+
+
+### Bug Fixes
+
+* export default ([11b9643](https://github.com/nekochan0122/config/commit/11b96433f9dee62c666d4d013ca396a914340f62))
+
 # [1.5.0](https://github.com/nekochan0122/config/compare/v1.4.1...v1.5.0) (2024-08-30)
 
 
