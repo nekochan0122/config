@@ -53,4 +53,4 @@ const eslintConfig: ESLintConfig = {
   },
 }
 
-export { eslintConfig as default }
+export default eslintConfig
