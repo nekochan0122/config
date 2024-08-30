@@ -25,7 +25,6 @@ export const stylisticBasePluginConfig: FlatConfigArray = [{
     '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     '@stylistic/no-trailing-spaces': 'error',
     '@stylistic/no-whitespace-before-property': 'error',
-    '@stylistic/object-curly-newline': ['error', { ImportDeclaration: 'never', ExportDeclaration: 'never' }],
     '@stylistic/object-curly-spacing': ['error', 'always'],
     '@stylistic/quotes': ['error', 'single'],
     '@stylistic/quote-props': ['error', 'consistent-as-needed'],
