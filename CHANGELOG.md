@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/nekochan0122/config/compare/v1.5.2...v1.6.0) (2024-08-30)
+
+
+### Features
+
+* update import rules ([bb058c6](https://github.com/nekochan0122/config/commit/bb058c6ec560f3d49ae3050c4d287ce9ba68dc83))
+
 ## [1.5.2](https://github.com/nekochan0122/config/compare/v1.5.1...v1.5.2) (2024-08-30)
 
 
