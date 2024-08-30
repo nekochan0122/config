@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/nekochan0122/config/compare/v1.4.1...v1.5.0) (2024-08-30)
+
+
+### Features
+
+* update stylistic rules ([ad02297](https://github.com/nekochan0122/config/commit/ad02297acf708b62d504b1d34d79d6027cb353e7))
+
 ## [1.4.1](https://github.com/nekochan0122/config/compare/v1.4.0...v1.4.1) (2024-08-29)
 
 
