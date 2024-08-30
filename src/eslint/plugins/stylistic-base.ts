@@ -40,5 +40,3 @@ export const stylisticBasePluginConfig: FlatConfigArray = [{
     '@stylistic/yield-star-spacing': ['error', 'after'],
   },
 }]
-
-export { stylisticBasePluginConfig as default }
