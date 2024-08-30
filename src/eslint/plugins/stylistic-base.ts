@@ -16,6 +16,7 @@ export const stylisticBasePluginConfig: FlatConfigArray = [{
     '@stylistic/comma-spacing': 'error',
     '@stylistic/eol-last': 'error',
     '@stylistic/function-call-spacing': 'error',
+    '@stylistic/generator-star-spacing': ['error', 'after'],
     '@stylistic/indent': ['error', 2],
     '@stylistic/key-spacing': 'error',
     '@stylistic/keyword-spacing': 'error',
@@ -24,6 +25,7 @@ export const stylisticBasePluginConfig: FlatConfigArray = [{
     '@stylistic/no-multiple-empty-lines': ['error', { max: 1, maxBOF: 0, maxEOF: 0 }],
     '@stylistic/no-trailing-spaces': 'error',
     '@stylistic/no-whitespace-before-property': 'error',
+    '@stylistic/object-curly-newline': ['error', { ImportDeclaration: 'never', ExportDeclaration: 'never' }],
     '@stylistic/object-curly-spacing': ['error', 'always'],
     '@stylistic/quotes': ['error', 'single'],
     '@stylistic/quote-props': ['error', 'consistent-as-needed'],
@@ -32,6 +34,10 @@ export const stylisticBasePluginConfig: FlatConfigArray = [{
     '@stylistic/space-infix-ops': 'error',
     '@stylistic/spaced-comment': 'error',
     '@stylistic/switch-colon-spacing': 'error',
+    '@stylistic/type-annotation-spacing': 'error',
+    '@stylistic/type-generic-spacing': 'error',
+    '@stylistic/type-named-tuple-spacing': 'error',
+    '@stylistic/yield-star-spacing': ['error', 'after'],
   },
 }]
 

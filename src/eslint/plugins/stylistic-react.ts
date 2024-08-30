@@ -7,6 +7,8 @@ export const stylisticReactPluginConfig: FlatConfigArray = [
   {
     rules: {
       '@stylistic/jsx-closing-bracket-location': [1, 'tag-aligned'],
+      '@stylistic/jsx-closing-tag-location': 'error',
+      '@stylistic/jsx-curly-spacing': 'error',
       '@stylistic/jsx-equals-spacing': [2, 'never'],
       '@stylistic/jsx-quotes': ['error', 'prefer-single'],
       '@stylistic/jsx-self-closing-comp': 'error',

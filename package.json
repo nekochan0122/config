@@ -29,7 +29,8 @@
   "scripts": {
     "build": "pkgroll --clean-dist",
     "build:watch": "pkgroll --clean-dist --watch",
-    "lint": "eslint --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
     "prepublish": "pnpm build && pnpm lint",
     "prepare": "husky"
   },
