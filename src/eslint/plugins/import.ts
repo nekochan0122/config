@@ -10,8 +10,9 @@ export const importPluginConfig: FlatConfigArray = [{
     import: fixupPluginRules(eslintImport),
   },
   rules: {
+    'import/no-empty-named-blocks': 'error',
     'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
-    'import/no-duplicates': ['error', { considerQueryString: true }],
     'import/newline-after-import': ['error', { count: 1 }],
+    'import/no-duplicates': ['error', { considerQueryString: true }],
   },
 }]
