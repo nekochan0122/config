@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/nekochan0122/config/compare/v1.6.0...v1.7.0) (2024-09-03)
+
+
+### Features
+
+* update deps ([2b1d64d](https://github.com/nekochan0122/config/commit/2b1d64d67d345c04a913404e50e7e95e28e92618))
+
 # [1.6.0](https://github.com/nekochan0122/config/compare/v1.5.2...v1.6.0) (2024-08-30)
 
 
