@@ -36,12 +36,12 @@
   },
   "devDependencies": {
     "@eslint/compat": "^1.1.1",
-    "@eslint/js": "^9.10.0",
+    "@eslint/js": "^9.11.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@stylistic/eslint-plugin": "^2.8.0",
     "@types/eslint__js": "^8.42.3",
-    "eslint": "^9.10.0",
+    "eslint": "^9.11.0",
     "eslint-plugin-import": "^2.30.0",
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "eslint-plugin-react": "^7.36.1",
@@ -53,7 +53,7 @@
     "husky": "^9.1.6",
     "pkgroll": "^2.5.0",
     "semantic-release": "^24.1.1",
-    "typescript-eslint": "^8.5.0"
+    "typescript-eslint": "^8.6.0"
   },
   "peerDependencies": {
     "@eslint/compat": ">=1.1.0",
