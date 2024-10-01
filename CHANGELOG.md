@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/nekochan0122/config/compare/v1.10.0...v1.11.0) (2024-10-01)
+
+
+### Features
+
+* support sort Vite suffix import ([b27ee9e](https://github.com/nekochan0122/config/commit/b27ee9e664d963d3a79fb9456861350e022a4e03))
+
 # [1.10.0](https://github.com/nekochan0122/config/compare/v1.9.0...v1.10.0) (2024-09-21)
 
 
