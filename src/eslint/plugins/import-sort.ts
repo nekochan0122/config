@@ -12,7 +12,7 @@ export const importSortPluignConfig: FlatConfigArray = [{
       'error',
       {
         groups: [
-          [String.raw`^\u0000`],
+          [String.raw`^\u0000`, String.raw`\?.*$`],
           [String.raw`^node:`, String.raw`^node:.*\u0000$`],
           [String.raw`^@?\w`, String.raw`^@?\w.*\u0000$`],
           [String.raw`(?<!\u0000)$`, String.raw`(?<=\u0000)$`],
