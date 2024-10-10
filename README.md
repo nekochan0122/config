@@ -43,7 +43,7 @@ export default tseslint.config(
 React:
 
 ```bash
-pnpm i -D eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh eslint-plugin-jsx-a11y
+pnpm i -D eslint-plugin-react eslint-plugin-react-hooks@rc eslint-plugin-react-refresh eslint-plugin-jsx-a11y
 ```
 
 ```js
