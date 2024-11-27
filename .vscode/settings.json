@@ -1,0 +1,25 @@
+{
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+  "files.watcherExclude": {
+    "pnpm-lock.yaml": true,
+  },
+  "search.exclude": {
+    "pnpm-lock.yaml": true,
+  },
+  "files.readonlyInclude": {
+    "pnpm-lock.yaml": true,
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+  },
+}
