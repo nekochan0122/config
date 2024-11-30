@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/nekochan0122/config/compare/v1.13.0...v1.14.0) (2024-11-30)
+
+
+### Features
+
+* '@typescript-eslint/no-empty-object-type': allowInterfaces: 'with-single-extends' ([3bb5ad1](https://github.com/nekochan0122/config/commit/3bb5ad1d1ad8daea0b9af4ef87f135cbcc9f16e7))
+
 # [1.13.0](https://github.com/nekochan0122/config/compare/v1.12.0...v1.13.0) (2024-11-27)
 
 
