@@ -11,6 +11,13 @@ export const typescriptStylePluginConfig: FlatConfigArray = [
     rules: {
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/no-explicit-any': 'error',
+      '@typescript-eslint/no-empty-object-type': [
+        'error',
+        {
+          allowInterfaces: 'with-single-extends',
+          allowObjectTypes: 'never',
+        },
+      ],
       '@typescript-eslint/consistent-type-definitions': 'off',
       '@typescript-eslint/consistent-type-imports': [
         'warn',
