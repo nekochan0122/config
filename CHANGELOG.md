@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/nekochan0122/config/compare/v1.14.0...v1.15.0) (2025-04-16)
+
+
+### Features
+
+* update deps ([691a094](https://github.com/nekochan0122/config/commit/691a094100af4213ab8eaa3be80ea32d4127f457))
+
 # [1.14.0](https://github.com/nekochan0122/config/compare/v1.13.0...v1.14.0) (2024-11-30)
 
 
