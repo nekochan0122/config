@@ -9,7 +9,7 @@ pnpm i -D @nekochan0122/config
 1. Install ESLint
 
 ```bash
-pnpm i -D eslint typescript-eslint @eslint/js @eslint/compat @types/eslint__js
+pnpm i -D eslint typescript-eslint @eslint/js @eslint/compat
 ```
 
 2. Install Base Plugins
